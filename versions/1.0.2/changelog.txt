@@ -1,0 +1,7 @@
+# Extension Craft 1.0.2
+
+- NEW: In-game guide book "Extension Craft Guide" — genre-based mod index (craft with Book + Dirt, auto-given on first join)
+- NEW: Custom title screen logo
+- Added FancyMenu (client)
+- Update checker now shows correct modpack info
+- Moved changelog button to bottom-right of the title screen
