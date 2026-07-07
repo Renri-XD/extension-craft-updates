@@ -1,0 +1,13 @@
+# Extension Craft 1.0.5
+
+- UPDATE: Renri's Slot 1.0.7 — bug fixes
+- UPDATE: Renri's Jukebox — bug fixes
+- FIX: Custom title screen logo could revert to default after a fresh install
+- Removed stray development files from the pack
+
+---
+
+- 更新: Renri's Slot 1.0.7 — 不具合修正
+- 更新: Renri's Jukebox — 不具合修正
+- 修正: 再インストール後にタイトル画面のロゴがデフォルトに戻ることがある問題
+- パックに紛れていた開発用ファイルを削除
