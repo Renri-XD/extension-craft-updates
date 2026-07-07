@@ -1,0 +1,5 @@
+# Extension Craft 1.0.1
+
+- Added Create: Bits 'n' Bobs (required for startup)
+- Removed a mod that was delisted from CurseForge
+- Fixed GTBC's Geomancy to use the CurseForge version
