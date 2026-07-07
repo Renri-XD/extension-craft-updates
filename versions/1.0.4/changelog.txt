@@ -1,0 +1,7 @@
+# Extension Craft 1.0.4
+
+- PERFORMANCE: Added Sodium, Entity Culling, ImmediatelyFast, Dynamic FPS and MoreCulling — big client FPS boost
+
+---
+
+- 軽量化: Sodium / Entity Culling / ImmediatelyFast / Dynamic FPS / MoreCulling を追加 — クライアントFPSを大幅改善
