@@ -1,7 +1,11 @@
 # Extension Craft 1.0.2
 
-- NEW: In-game guide book "Extension Craft Guide" — genre-based mod index (craft with Book + Dirt, auto-given on first join)
-- NEW: Custom title screen logo
-- Added FancyMenu (client)
-- Update checker now shows correct modpack info
-- Moved changelog button to bottom-right of the title screen
+- NEW: In-game guide book "Extension Craft Guide" — a genre-based mod index (craft with a Book + Dirt, auto-given on first join)
+- NEW: Custom title screen logo (added FancyMenu; its editor UI is hidden by default)
+- FIX: Modpack Update Checker — correct pack name/author/version display, changelog button moved to the bottom-right
+
+---
+
+- 新規: ゲーム内ガイドブック「Extension Craft ガイド」— ジャンル別MOD索引（本+土でクラフト、初回参加時に自動配布）
+- 新規: タイトル画面のカスタムロゴ（FancyMenu追加・編集UIは既定で非表示）
+- 修正: Modpack Update Checker — パック名/作者/バージョン表示を修正、Changelogボタンを画面右下へ移動
