@@ -1,0 +1,13 @@
+# Extension Craft 1.0.3
+
+- NEW: AmbientSounds — richer ambient soundscapes (forests, caves, and more)
+- NEW: Drip Sounds — drip and drop sound effects for a moodier underground
+- NEW: Simple Clouds — beautiful volumetric clouds
+- The in-game guide book now has a new "Atmosphere & Ambience" section
+
+---
+
+- 新規: AmbientSounds — 森や洞窟などの環境音を大幅強化
+- 新規: Drip Sounds — 水滴の落下音を追加、洞窟の雰囲気アップ
+- 新規: Simple Clouds — 立体的で美しい雲の描画
+- ゲーム内ガイドブックに「雰囲気・環境音」セクションを追加
