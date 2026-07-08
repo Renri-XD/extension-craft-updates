@@ -1,0 +1,13 @@
+# Extension Craft 1.0.6
+
+- UPDATE: Renri's Diner 1.1.0 — The Decor Shop Update! Spend your coins at the new Decor Shop stall: 19 shop-exclusive furnishings including noren curtains, paper lanterns, an aquarium, a pushable serving cart, a visitor counter and 1-3 star signs
+- The in-game guide book now explains the Decor Shop
+- FIX: Custom title screen logo now applies correctly on fresh installs
+- Removed stray development files from the pack
+
+---
+
+- 更新: Renri's Diner 1.1.0 — 装飾ショップアップデート！新しい屋台「装飾ショップ」でコインを使おう。のれん・提灯・水槽・押して動かせる配膳ワゴン・来店者数カウンター・星看板(1〜3つ星)など、ショップ専売の家具19種
+- ゲーム内ガイドブックに装飾ショップの説明を追加
+- 修正: 新規インストール時にタイトル画面のロゴが正しく適用されるように
+- パックに紛れていた開発用ファイルを削除
