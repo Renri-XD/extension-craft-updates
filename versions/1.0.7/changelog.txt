@@ -1,0 +1,13 @@
+# Extension Craft 1.0.7
+
+- NEW: Mob Grinding Utils — build automated mob farms with fans, spikes, absorption tanks and more
+- NEW: Just Dire Things — a tech/utility mod adding powerful tools, gear and automation blocks
+- UPDATE: Renri's Quest Board 1.0.2 — shows the acceptor's name, completed/deleted quests now leave an empty slot until the next refresh, mobs with no loot are excluded from quests, and full English localization was added
+- UPDATE: Renri's Quest Post 1.0.1 — quests posted via the transceiver now appear immediately, delivery works no matter where the posting station is, and a garbled overlapping text was fixed
+
+---
+
+- 新規: Mob Grinding Utils — ファン・スパイク・吸収タンクなどで自動モブファームを作れる
+- 新規: Just Dire Things — 強力なツール・装備・自動化ブロックを追加するテック/ユーティリティMOD
+- 更新: Renri's Quest Board 1.0.2 — 受諾者名の表示、完了/削除後は次の更新まで空きスペース化、ドロップ無しMobをクエスト除外、英語ローカライズに完全対応
+- 更新: Renri's Quest Post 1.0.1 — トランシーバーで投稿した依頼が即表示、投稿台の位置に関わらず納品可能、赤文字の重なり表示を修正
