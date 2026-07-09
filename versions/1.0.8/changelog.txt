@@ -1,0 +1,13 @@
+# Extension Craft 1.0.8
+
+- NEW: Emotecraft — play emotes and character animations with a built-in editor
+- NEW: Exposure — cameras and photography; take, develop and display real in-game photos
+- UPDATE: Renri's Diner 1.1.1 — the serving cart can now actually be pushed (right-click to open its storage, sneak + left-click to shove it one block; works even with an item in hand)
+- UPDATE: Renri's Slot 1.0.8 — fixed the reels spinning even when you didn't have enough emeralds; the machine now checks your balance first
+
+---
+
+- 新規: Emotecraft — エモート/キャラクターアニメを再生(エディタ内蔵)
+- 新規: Exposure — カメラと写真。ゲーム内で実際に写真を撮影・現像・展示できる
+- 更新: Renri's Diner 1.1.1 — 配膳ワゴンを実際に押して動かせるように(右クリックで中身/スニーク＋左クリックで1マス押す。アイテム所持でも動作)
+- 更新: Renri's Slot 1.0.8 — エメラルドが足りなくてもリールが回ってしまう不具合を修正(スピン前に残高を確認)
