@@ -1,17 +1,17 @@
 # Extension Craft 1.0.9
 
-- NEW: FTB Chunks & FTB Teams — share one explored map with your team and see each other's positions on the map/minimap (chunk protection is OFF by default, so claims are map-only)
+- NEW: FTB Chunks & FTB Teams — one team-shared map (minimap + full-screen map) that syncs your exploration and shows everyone's positions across the server. Chunk protection is OFF by default, so claims are map-only.
+- CHANGE: Replaced Xaero's Minimap & World Map with FTB Chunks' built-in map, so the whole team uses one shared map. (Open the map with M.)
 - NEW: Iron's Spells 'n Spellbooks add-ons — Magic From The East, Twilight Spellbooks, Monsters & Spellbooks, and Crystal Chronicles (adds Fusion & Biolith)
 - NEW: Cosmetic Armor Reworked — wear cosmetic armor over your real armor
 - NEW: Simple Hats — collect and wear decorative hats
-- CHANGE: Xaero's Minimap now defaults to the top-right corner and is locked to north
 - UPDATE: Renri's Quest Post 1.0.2 — transceiver item requests now work with or without a posting station and across dimensions; if the requester is offline the items are delivered on their next login; up to 5 requests per player; you can now cancel your own request
 
 ---
 
-- 新規: FTB Chunks & FTB Teams — チームで探索マップを共有し、お互いの位置をマップ/ミニマップに表示(チャンク保護はデフォルトOFF＝claimはマップ用途のみ)
+- 新規: FTB Chunks & FTB Teams — チームで共有される1つのマップ(ミニマップ＋全画面マップ)。探索が同期され、サーバー全体でお互いの位置が表示されます。チャンク保護はデフォルトOFF(claimはマップ用途のみ)。
+- 変更: Xaero's Minimap & World Map を FTB Chunks のマップに置き換え、チーム全員で1つの共有マップを使うようにしました。(マップは M キーで開けます)
 - 新規: Iron's Spells 'n Spellbooks アドオン群 — Magic From The East / Twilight Spellbooks / Monsters & Spellbooks / Crystal Chronicles(Fusion・Biolith も追加)
 - 新規: Cosmetic Armor Reworked — 実際の防具の上に見た目装備を重ねられる
 - 新規: Simple Hats — 装飾用の帽子を集めて被れる
-- 変更: Xaero ミニマップを既定で右上・北固定に
 - 更新: Renri's Quest Post 1.0.2 — トランシーバーの依頼が投稿台の有無・ディメンションに関係なく機能。依頼者がオフラインなら次回ログイン時に納品物が届く。依頼枠は最大5件。自分の依頼を取り消し可能に
