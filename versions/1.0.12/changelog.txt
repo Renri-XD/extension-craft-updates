@@ -1,0 +1,17 @@
+# Extension Craft 1.0.12
+
+- NEW: Actually Additions — a classic tech/utility mod (lamps, farming, energy tools and more).
+- NEW: Mekanism Lights — decorative colored lights for your Mekanism builds.
+- UPDATE: Renri's Bestiary 1.0.6 — each entry now shows which mod added that mob or item, right under the stats, and you can search the bestiary by mod name.
+- UPDATE: Renri's Diner 1.1.2 — fixed the Decor Shop's background panel so item slots no longer spill outside the frame.
+- FIX: Skill tree — the final skills in each branch could not be reached because of point-gating on a straight path. Gating removed; you can now take a branch all the way to its capstone.
+- FIX: Skill Reset Token now works reliably (it resets your skills through the mod API instead of a command). Requires ExtensionCraft Skills 1.0.1.
+
+---
+
+- 新規: Actually Additions — ランプ・農業・エネルギーツールなどを追加する定番のテック/ユーティリティMOD。
+- 新規: Mekanism Lights — Mekanism建築向けの装飾用カラーライト。
+- 更新: Renri's Bestiary 1.0.6 — 各エントリのステータス直下に「そのモブ/アイテムを追加したMOD名」を表示。MOD名での検索にも対応。
+- 更新: Renri's Diner 1.1.2 — 装飾ショップの背景パネルを修正し、スロットが枠からはみ出す問題を解消。
+- 修正: スキルツリー — 直線状の前提とポイント制限が噛み合わず、各枝の最後のスキルに到達できない不具合を修正(ゲートを撤去し、枝の最終ノードまで取得可能に)。
+- 修正: スキルリセットの書が確実に動作するように(コマンドではなくMOD APIでリセット)。ExtensionCraft Skills 1.0.1 が必要。
