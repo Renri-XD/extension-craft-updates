@@ -1,11 +1,13 @@
 # Extension Craft 1.0.10
 
+- NEW: Skill trees — Pufferfish's Skills, plus ExtensionCraft Skills 1.0.0 and a skill tree built for this pack. Spend points on branches that grant abilities plain attributes can't express: a Crop Growth Aura that ripens nearby crops, a chance not to consume food when you eat, and a chance to double the drops from fully-grown crops. Changed your mind? Craft a Skill Reset Token (book + ender pearl + redstone) to respec and get every point back.
 - NEW: Renri's Inn 1.0.1 — run your own inn! Place a Front Desk, set it to Open, and travelers arrive at night. They sleep in your beds (vanilla, Comforts, or the inn's own Hammocks, Ryokan Futons and Grand Beds) and pay coins at checkout. Buy luxury beds straight from the desk, and dye them any of the 16 colors. Coins are shared with Renri's Slot and Renri's Diner.
 - FIX: Renri's Slot 1.0.9, Renri's Quest Post 1.0.2 and Renri's Quest Board 1.0.2 are now actually included. These updates were announced in earlier changelogs, but the pack kept shipping the older jars — sorry about that. They are really here this time.
 - CHANGE: Renri's mods are now pulled from CurseForge instead of hand-written download links, so future updates land in the pack as soon as they are published.
 
 ---
 
+- 新規: スキルツリー — Pufferfish's Skills に加え、ExtensionCraft Skills 1.0.0 と本パック専用のスキルツリーを追加しました。通常の属性では表現できない能力をポイントで取得できます。周囲の作物の成長を早める「作物成長オーラ」、食事時に確率で食料を消費しない効果、完全成長した作物の収穫が確率で倍になる効果など。取り直したくなったら、スキルリセットトークン(本＋エンダーパール＋レッドストーン)を作ればポイントが全額返ってきます。
 - 新規: Renri's Inn 1.0.1 — 自分の宿を経営できます。フロントデスクを置いて「営業中」にすると、夜に旅人がやって来ます。旅人はあなたのベッド(バニラ・Comforts・宿独自のハンモック/旅館布団/グランドベッド)で眠り、チェックアウト時にコインを支払います。豪華ベッドはデスクから直接購入でき、染料で16色に変更可能。コインは Renri's Slot・Renri's Diner と共有されます。
 - 修正: Renri's Slot 1.0.9 / Renri's Quest Post 1.0.2 / Renri's Quest Board 1.0.2 がようやく実際に収録されました。これらは以前の changelog で告知していましたが、パックには古い jar が入ったままでした。失礼しました。今度こそ入っています。
 - 変更: Renri 制作のMODを手書きのダウンロードリンクではなく CurseForge から取得するようにしました。今後は公開と同時にパックへ反映されます。
