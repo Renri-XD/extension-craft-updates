@@ -1,0 +1,13 @@
+# Extension Craft 1.0.11
+
+- FIX: The skill tree announced in 1.0.10 was never actually shipped — the mods were there, but the tree itself was missing, so the skills screen came up empty. The full tree is now included: five branches (Warrior, Vitality, Miner, Explorer, Farmer), 51 nodes, and a neutral starting node so your first point is yours to spend.
+- FIX: The update checker kept saying "an update is available" even after updating to 1.0.10. Its version number was left behind at 1.0.9 — it now matches the pack again.
+- NEW: The skill tree is fully translated in both English and Japanese.
+- Sorry for the trouble on 1.0.10 — this release makes the skill tree actually work.
+
+---
+
+- 修正: 1.0.10 で告知したスキルツリーが実際には同梱されていませんでした。MOD自体は入っていましたが、ツリー本体が欠けていたため、スキル画面が空のままでした。今回、完全なツリーを収録しています。5つの枝(戦士・活力・採掘・探検・農夫)、51ノード、そして最初の1ポイントを自分で決められる中立の起点ノードを用意しました。
+- 修正: 1.0.10 に更新しても「MODパックの更新があります！」が消えない問題を修正しました。更新チェッカーのバージョン番号が 1.0.9 のまま取り残されていたためです。
+- 新規: スキルツリーの表記を日本語・英語の両方に対応させました。
+- 1.0.10 ではご不便をおかけしました。今回のリリースでスキルツリーが正しく動作します。
