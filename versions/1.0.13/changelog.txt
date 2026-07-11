@@ -1,0 +1,15 @@
+# Extension Craft 1.0.13
+
+- PERF: Faster startup and lower memory use — enabled ModernFix dynamic resource loading pack-wide.
+- UPDATE: Renri's Bestiary 1.0.8 — you can now open the bestiary with a key binding (unbound by default; set it under Options > Controls) or a button in the pause screen, in addition to the book item.
+- UPDATE: Renri's Jukebox 1.1.1 — the jukebox is now registration-based: registering a music disc no longer consumes it, and breaking the jukebox no longer drops discs. GUI fully localized. Note: a jukebox that already held discs keeps them as registrations, but those specific discs can no longer be pulled back out as items.
+- UPDATE: Renri's Quest Board 1.0.3 — remaining hardcoded Japanese text is now localized (English / Japanese).
+- FIX: Renri's Quest Post 1.0.3 — English was showing raw translation keys because the language file was misnamed; English now displays correctly, and all UI text is localized.
+
+---
+
+- 最適化: 起動高速化とメモリ削減 — ModernFix の動的リソース読み込みをパック全体で有効化。
+- 更新: Renri's Bestiary 1.0.8 — 本アイテムに加えて、キーバインド(デフォルト未割り当て。オプション>操作 で設定)やポーズ画面のボタンから図鑑を開けるようになりました。
+- 更新: Renri's Jukebox 1.1.1 — 登録式に変更。レコードを登録してもアイテムは消費されず、ジュークボックスを壊してもドロップしません。GUIを完全ローカライズ。注意: 既にレコードを入れていたジュークボックスは中身を登録として引き継ぎますが、それらはアイテムとして取り出せなくなります。
+- 更新: Renri's Quest Board 1.0.3 — 残っていたハードコードの日本語を翻訳キー化(英語/日本語対応)。
+- 修正: Renri's Quest Post 1.0.3 — 言語ファイル名の誤りで英語表示が生キーになっていた問題を修正。英語が正しく表示され、全UIをローカライズしました。
