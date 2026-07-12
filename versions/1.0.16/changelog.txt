@@ -1,0 +1,15 @@
+# Extension Craft 1.0.16
+
+- NEW: A wave of cozy production & economy mods.
+  - [Let's Do] Meadow, Bakery, Vinery and Brewery (with Farm & Charm) — dairy, bread, wine and beer to grow, cook and sell.
+  - Productive Bees — beekeeping, honey and wax.
+  - Renri's Market — a market stall that passively sells your surplus produce for coins over time, plus a potion shop to spend them at. Shares the same coin as the diner, inn and slots.
+- Together these give all that farming, cooking, dairy and beekeeping output a place to turn into coins.
+
+---
+
+- 新規: コージーな生産＆経済MODをまとめて追加。
+  - [Let's Do] Meadow・Bakery・Vinery・Brewery（＋Farm & Charm）— 乳製品・パン・ワイン・ビールを育てて作って売れる。
+  - Productive Bees — 養蜂・ハチミツ・蜜蝋。
+  - Renri's Market — 余った農産物を時間経過で自動販売してコインを稼ぐ「露店」と、コインでバニラポーションを買える「ポーションショップ」。コインは食堂・宿・スロットと共通。
+- これらにより、農業・料理・乳製品・養蜂で増えた産物をコインに変える場所ができました。
