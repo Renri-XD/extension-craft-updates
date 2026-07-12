@@ -1,0 +1,15 @@
+Extension Craft 1.0.17
+
+Bugfix update for the Renri's mods.
+
+- Renri's Diner 1.1.4 — Fixed customers rendering with an invisible head. Customers now show their head correctly, and the 7 outfit colors are kept.
+- Renri's Market 1.0.2 — Added the missing crafting recipes for the Market Stall and the Potion Shop (they could not be crafted in survival before).
+
+---
+
+Extension Craft 1.0.17
+
+Renri's MOD の不具合修正アップデートです。
+
+- Renri's Diner 1.1.4 — 客の頭が透明になって表示されないバグを修正しました。頭が正しく表示され、7種の衣装カラーもそのまま維持されます。
+- Renri's Market 1.0.2 — 露店とポーションショップのクラフトレシピを追加しました（これまでサバイバルで作成できませんでした）。
