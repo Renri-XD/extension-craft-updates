@@ -1,0 +1,13 @@
+# Extension Craft 1.0.15
+
+- BALANCE: ExtensionCraft skill tree — you can now reach a branch's final skill reliably, and take TWO branch capstones in total.
+  - The Farmer branch was an outlier (18 points to its capstone) and could only be finished by pouring everything into it; its mid-tier costs were lowered so every branch now reaches its capstone for 13-14 points.
+  - The spend limit was raised from 20 to 30 and the level cap from 25 to 30, so a dedicated player can complete two full branches (26-28 points) and unlock two capstones. Three is still out of reach.
+- After updating, restart your world/server. If your character already spent points, right-click the Skill Reset Token to refund and re-spend under the new costs.
+
+---
+
+- 調整: ExtensionCraft スキルツリー — 各枝の最終スキルに確実に到達でき、合計で「2つ」の枝のcapstoneを取得できるようにしました。
+  - 農夫の枝だけ突出して重く(capstoneまで18pt)、全振りしないと取れませんでした。中盤のコストを下げ、どの枝も13〜14ptでcapstoneに到達できるようにしました。
+  - 消費上限を20→30、レベル上限を25→30に引き上げ、2つの枝を完成(26〜28pt)して2つのcapstoneを解放できるようにしました(3つは不可)。
+- 更新後はワールド/サーバーを再起動してください。既にポイントを使っている場合は、スキルリセットの書を右クリックして振り直せます。
