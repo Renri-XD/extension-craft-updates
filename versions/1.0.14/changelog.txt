@@ -1,0 +1,15 @@
+# Extension Craft 1.0.14
+
+- UPDATE: Renri's Diner 1.1.3 — a big update to the diner.
+  - Customers now arrive in a variety of outfits, show the dish they ordered as an icon above their head, and stay to eat for a while after being served instead of vanishing.
+  - Decorating pays off: ambiance décor near the register raises how many customers can dine at once and adds tips (scan reaches up to 32 blocks).
+  - 20 new decorations (39 total at the Decor Shop): maneki-neko, daruma, flower vases, kadomatsu, sake barrel, ramen & tempura samples, wall clock, a 2-block-tall vending machine, bottle crate, tea set, zabuton cushion (also a seat), rice cooker, trash bin, and wall-mounted paper menu & calendar.
+  - Many decorations are now full 3D models; the wall clock, paper menu, and calendar mount on walls.
+
+---
+
+- 更新: Renri's Diner 1.1.3 — 食堂の大型アップデート。
+  - お客さんが複数の衣装で来店し、注文した料理を頭上にアイコン表示。配膳後もすぐ消えず、しばらく座って食事してから退店するようになりました。
+  - 内装が経営に効きます。レジ周辺の雰囲気装飾で同時来店数の上限が増え、チップも加算(スキャン範囲は最大32ブロック)。
+  - 新装飾20種(装飾ショップ計39種): 招き猫・だるま・花瓶・門松・飾り酒樽・ラーメン/天ぷらの食品サンプル・壁掛け時計・高さ2ブロックの自販機・瓶ケース・茶器セット・座れる座布団・炊飯器・ゴミ箱・壁掛けのお品書き/カレンダー。
+  - 多くの装飾が本格3Dモデルに。壁掛け時計・お品書き・カレンダーは壁面に設置できます。
