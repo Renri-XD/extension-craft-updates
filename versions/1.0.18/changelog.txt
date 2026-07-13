@@ -1,0 +1,17 @@
+Extension Craft 1.0.18
+
+Renri's Slot 1.1.0 — the slot mod grows into a full casino!
+
+- High & Low Table — bet coins and guess whether the next card is higher or lower. Odds shown on the buttons, build a streak and cash out anytime. Closing the GUI mid-round refunds your pot.
+- Roulette Table — European roulette (0-36) where you can place chips on multiple spots at once (numbers x36, dozens x3, red/black, odd/even, low/high x2). Placed chips appear as coins on the board. Spinning plays a rotating wheel animation with a ball that drops into the pocket.
+- Both tables are craftable and use the same coins as the slot machines — earn at the Diner or Market, gamble at the casino.
+
+---
+
+Extension Craft 1.0.18
+
+Renri's Slot 1.1.0 — スロットMODが本格カジノに進化！
+
+- ハイ＆ロー台 — コインを賭けて次のカードが上か下かを予想。オッズはボタンに表示、連勝でポットを増やしていつでも回収可能。ラウンド中にGUIを閉じても返金されます。
+- ルーレット台 — ヨーロピアンルーレット（0〜36）。複数の場所へ同時にチップを置けます（一点×36、ダース×3、赤黒・奇偶・前後半×2）。置いたチップは盤面にコインとして表示。スピンすると回転するホイールのアニメーションが流れ、玉がポケットに落ちます。
+- どちらの台もクラフト可能で、コインはスロットマシンと共通 — 食堂や露店で稼いで、カジノで遊べます。
