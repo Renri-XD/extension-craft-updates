@@ -1,0 +1,47 @@
+name: Discord New Version Notify
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: 新バージョンを検出
+        id: check
+        run: |
+          NEW_VERSION=$(jq -r '.versions[-1].id' meta.json)
+
+          git show HEAD^:meta.json > old_meta.json 2>/dev/null || echo '{"versions":[]}' > old_meta.json
+          OLD_VERSION=$(jq -r '.versions[-1].id // "none"' old_meta.json)
+
+          if [ "$NEW_VERSION" == "$OLD_VERSION" ]; then
+            echo "new_version_found=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "new_version_found=true" >> "$GITHUB_OUTPUT"
+            echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: コミットメッセージを取得
+        if: steps.check.outputs.new_version_found == 'true'
+        id: commitmsg
+        run: |
+          MSG=$(git log -1 --pretty=%B)
+          echo "message<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$MSG" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Discordに通知
+        if: steps.check.outputs.new_version_found == 'true'
+        run: |
+          VERSION="${{ steps.check.outputs.version }}"
+          MSG="${{ steps.commitmsg.outputs.message }}"
+          PAYLOAD=$(jq -n --arg v "$VERSION" --arg msg "$MSG" \
+            '{content: ("**🎉 ExtensionCraft v" + $v + " がリリースされました！**\n" + $msg)}')
+          curl -H "Content-Type: application/json" -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK_URL }}"
