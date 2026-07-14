@@ -32,16 +32,19 @@ jobs:
         if: steps.check.outputs.new_version_found == 'true'
         id: commitmsg
         run: |
-          MSG=$(git log -1 --pretty=%B)
-          echo "message<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$MSG" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          {
+            echo "message<<COMMITMSG_EOF"
+            git log -1 --pretty=%B
+            echo "COMMITMSG_EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Discordに通知
         if: steps.check.outputs.new_version_found == 'true'
+        env:
+          VERSION: ${{ steps.check.outputs.version }}
+          CHANGELOG: ${{ steps.commitmsg.outputs.message }}
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          VERSION="${{ steps.check.outputs.version }}"
-          MSG="${{ steps.commitmsg.outputs.message }}"
-          PAYLOAD=$(jq -n --arg v "$VERSION" --arg msg "$MSG" \
+          PAYLOAD=$(jq -n --arg v "$VERSION" --arg msg "$CHANGELOG" \
             '{content: ("**🎉 ExtensionCraft v" + $v + " がリリースされました！**\n" + $msg)}')
-          curl -H "Content-Type: application/json" -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK_URL }}"
+          curl -H "Content-Type: application/json" -d "$PAYLOAD" "$WEBHOOK_URL"
