@@ -1,0 +1,15 @@
+Extension Craft 1.0.19
+
+The Wallet update — the whole Renri economy now fits in your pocket!
+
+- Renri's Slot 1.2.0 — New Wallet item (holds up to 1,000,000 coins, crafted from leather + string + a gold nugget). Right-click to deposit/withdraw. You can pay straight from the wallet at the casino tables and the Coin Exchange, and slot payouts / casino winnings go into the wallet first, so a jackpot no longer floods your inventory.
+- Renri's Diner 1.1.5 / Renri's Inn 1.0.2 / Renri's Market 1.0.3 — All shops now work with the Wallet: your spendable balance is pocket + wallet, purchases take pocket coins first and then the wallet, and your earnings (customer payments, room fees, stall sales) are deposited into the wallet automatically.
+
+---
+
+Extension Craft 1.0.19
+
+財布アップデート — Renri経済がまるごとポケットに収まります！
+
+- Renri's Slot 1.2.0 — 新アイテム「財布」（上限100万コイン、革＋糸＋金塊でクラフト）。右クリックで出し入れでき、カジノ台・両替所では財布から直接支払えます。スロットの払い出しやカジノの勝ち金は財布に直行するので、大当たりしてもインベントリがコインで埋まりません。
+- Renri's Diner 1.1.5 / Renri's Inn 1.0.2 / Renri's Market 1.0.3 — 全店舗が財布に対応。使える残高は「手持ち＋財布」の合計、支払いは手持ち→財布の順、収入（お客さんの代金・宿代・露店の売上）は自動で財布に入ります。
