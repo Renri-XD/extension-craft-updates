@@ -1,0 +1,45 @@
+Extension Craft 1.1.4
+
+Welcome to town! The flagship town-building mod joins the pack, plus quests, compact factories, katanas and more.
+
+Added
+- Renri's Town 1.2.1 (NEW) — Found a town with a town hall and grow it from a hamlet into a metropolis. Residents with names and personalities move into the houses you build (bed + door + roof), commute to their workplaces, tend the fields around the Harvest Box, and stroll to the park in the evening. Facilities (park / bathhouse / shop / clinic / guard post) are judged by tag-based conditions, so any design and any material works. Hiring a villager recruits them into town as a resident (villagers with trades are protected). Includes a town-boundary particle display, a warehouse GUI with search & tabs, and soft integration with Renri's Inn and the coin economy.
+- Renri's Town: Core 1.0.0 (NEW) — the town-progression core that Renri's Town integrates with.
+- FTB Quests (NEW) — now bundled with the pack. This also fixes the multiplayer "unknown registry keys" disconnect some players hit when joining servers.
+- Compact Machines (NEW) — build entire factories inside a single block.
+- SlashBlade: Resharped (NEW) — masterfully crafted katanas with special arts and combos.
+- AE2 MEGA Things + AE2 Things (NEW) — bigger cells and more toys for your Applied Energistics 2 network.
+- Trash Cans (NEW, with SuperMartijn642's Core/Config Lib) — item, liquid and energy trash cans for tidy bases.
+
+Removed
+- Snow! Real Magic! — removed to lighten server startup. Snow will no longer pile up on blocks; nothing else is affected.
+
+Fixed / Changed
+- Added a sawmill config to prevent a freeze when joining a world for the first time.
+- Updated alltheleaks 1.1.9 → 1.1.10.
+
+Note: versions 1.0.20 – 1.1.3 were internal builds and were never released — this release jumps from 1.0.19 straight to 1.1.4.
+
+----------------------------------------
+
+Extension Craft 1.1.4
+
+ようこそ、街へ！旗艦の街づくりMODに加えて、クエスト・コンパクト工場・刀まで一挙参戦です。
+
+追加
+- Renri's Town 1.2.1（新規） — 役場を置いて街を設立し、集落から大都市へ育てる街づくりMOD。名前と性格を持つ住民が、あなたの建てた家（ベッド＋ドア＋屋根）に移住し、職場へ通勤し、収穫箱の周りの畑を世話し、夕方は公園へ寄り道します。施設（公園・浴場・商店・診療所・番所）はタグ条件で判定されるので、デザインも素材も自由。村人を雇うと街の住民として移住します（取引持ちの村人は保護）。街の境界パーティクル表示、検索・タブ付き倉庫GUI、Renri's Inn・コイン経済とのソフト連携つき。
+- Renri's Town: Core 1.0.0（新規） — Renri's Townが連携する街の発展システムの中核MOD。
+- FTB Quests（新規） — パックに同梱されるようになりました。マルチ参加時に一部プレイヤーが遭遇していた「unknown registry keys」切断もこれで解消します。
+- Compact Machines（新規） — 1ブロックの中に工場を丸ごと建てられます。
+- SlashBlade: Resharped（新規） — 特殊攻撃とコンボを備えた刀MOD。
+- AE2 MEGA Things + AE2 Things（新規） — Applied Energistics 2の大容量セルなど拡張いろいろ。
+- Trash Cans（新規、SuperMartijn642's Core/Config Lib同梱） — アイテム・液体・エネルギーのゴミ箱で拠点すっきり。
+
+削除
+- Snow! Real Magic! — サーバー起動の軽量化のため削除。ブロックに雪が積もる演出が無くなるだけで、他への影響はありません。
+
+修正・変更
+- ワールド初回参加時のフリーズを防ぐsawmill用configを追加。
+- alltheleaks を 1.1.9 → 1.1.10 に更新。
+
+備考: 1.0.20〜1.1.3 は内部ビルドで未リリースのため、1.0.19から1.1.4へ番号が飛んでいます。
