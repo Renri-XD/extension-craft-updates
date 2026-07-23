@@ -19,30 +19,39 @@ jobs:
           NEW_VERSION=$(jq -r '.versions[-1].id' meta.json)
 
           git show HEAD^:meta.json > old_meta.json 2>/dev/null || echo '{"versions":[]}' > old_meta.json
-          OLD_VERSION=$(jq -r '.versions[-1].id // "none"' old_meta.json)
 
-          if [ "$NEW_VERSION" == "$OLD_VERSION" ]; then
+          # 「以前のリストに存在しなかった最新版」だけを新リリース扱いにする。
+          # エントリ削除やロールバックでは発火しない(誤アナウンス防止)。
+          if jq -e --arg v "$NEW_VERSION" '.versions[] | select(.id == $v)' old_meta.json > /dev/null; then
             echo "new_version_found=false" >> "$GITHUB_OUTPUT"
           else
             echo "new_version_found=true" >> "$GITHUB_OUTPUT"
             echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: コミットメッセージを取得
+      - name: changelog本文を読み込み
         if: steps.check.outputs.new_version_found == 'true'
-        id: commitmsg
+        id: changelog
+        env:
+          VERSION: ${{ steps.check.outputs.version }}
         run: |
+          FILE="versions/$VERSION/changelog.txt"
+          if [ -f "$FILE" ]; then
+            BODY=$(head -c 1800 "$FILE")
+          else
+            BODY=$(git log -1 --pretty=%B)
+          fi
           {
-            echo "message<<COMMITMSG_EOF"
-            git log -1 --pretty=%B
-            echo "COMMITMSG_EOF"
+            echo "body<<CHANGELOG_EOF"
+            echo "$BODY"
+            echo "CHANGELOG_EOF"
           } >> "$GITHUB_OUTPUT"
 
       - name: Discordに通知
         if: steps.check.outputs.new_version_found == 'true'
         env:
           VERSION: ${{ steps.check.outputs.version }}
-          CHANGELOG: ${{ steps.commitmsg.outputs.message }}
+          CHANGELOG: ${{ steps.changelog.outputs.body }}
           WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           PAYLOAD=$(jq -n --arg v "$VERSION" --arg msg "$CHANGELOG" \
