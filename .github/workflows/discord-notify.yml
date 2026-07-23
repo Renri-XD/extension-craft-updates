@@ -37,7 +37,8 @@ jobs:
         run: |
           FILE="versions/$VERSION/changelog.txt"
           if [ -f "$FILE" ]; then
-            BODY=$(head -c 1800 "$FILE")
+            # UTF-8安全に文字数で切り詰め(Discordの2000文字制限対策)
+            BODY=$(python3 -c "import sys; print(open(sys.argv[1], encoding='utf-8').read()[:1500])" "$FILE")
           else
             BODY=$(git log -1 --pretty=%B)
           fi
